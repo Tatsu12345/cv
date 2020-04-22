@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Details</title>
+  </head>
+  <body>
+
+      <h1>Contact Details</h1>
+      <ul>
+        <li>Email : iamawesome@gmail.com</li>
+        <li>Phone number : 0486849153</li>
+        </ul>
+  <!--the mail to is essentially opening ur computer mail client and send and email to the email address specified-->
+  <!--the method post is "post" the data into the email field on the client
+      the enctype is essntially telling client to intepret the data as plain text
+  -->
+        <form action="mailto:watershadowdragon@gmail.com" method="post" enctype="text/plain">
+          <label>Your name</label>
+          <input type="text" name = "YourName"><br> <!--is what u are actually call the data being entered-->
+          <label>Your email</label>
+          <input type="email" name="YourEmail"><br>
+          <label>Your message</label><br>
+          <lable>Preferred meetup date</lable>
+          <input type="date" name="meetupDate"><br>
+          <textarea cols="30" rows="10" name = "YourMessage"></textarea><br>
+          <input type="submit">
+
+        </form>
+
+
+  </body>
+</html>

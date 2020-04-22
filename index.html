@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--tells the browser which version of html to render in-->
+<html lang="en" dir="ltr">
+<!--tells the web broswer that all code in tag is going to be html -->
+
+<head>
+  <meta charset="utf-8">
+  <!--note that there is also a description attribute
+                               which is what is display in the website description once u search smth on google-->
+  <title>Oscar's Personal Site</title>
+</head>
+
+<body>
+  <table cellspacing="20">
+    <td>
+      <img src="Oscar.png" alt="Oscar">
+      <!--this is an image from the local directory meaning at the same place as the index page-->
+      <!--this is also a self closing tag -->
+    </td>
+    <td>
+      <h1>Oscar He</h1>
+      <!--u can use the packages -> beautify option to make ur code look better (indentation) -->
+
+      <p><em>Student of <strong><a href="https://www.unsw.edu.au/">UNSW</a></strong></em></p>
+      <!--we are using the <em> instead of <i> becuz the em conveys some sort of meaning and is better practice -->
+      <!--we are also using strong instead of <b> becuz again provides more meaning -->
+      <!--<em> means emphasis meaning italics and <strong> means bold-->
+      <p>Despite me going to UNSW I am known as the master procastinator. I love watching youtube.</p>
+    </td>
+
+  </table>
+
+  <hr size="2" color="grey">
+  <h3>Education</h3>
+  <ul>
+    <!--This is used for creating an unordered list-->
+    <li>Graduate from UNSW</li>
+    <li>Graduate from High School</li>
+  </ul>
+
+<hr>
+  <h3>Work Experience</h3>
+  <table cellspacing="10">
+    <!--note that if u want any particular styles dont use html instead use css as html is used for structuring and css is for styling-->
+    <thead>
+      <!--this is used to create the heading of the table -->
+      <tr>
+        <!--this code creates a row in the table-->
+        <th>Date</th>
+        <!--places the content into table header-->
+        <th>Place</th>
+      </tr>
+    </thead>
+    <!--just like for the html structure table also has heading body and footer-->
+    <tbody>
+      <tr>
+        <td>2013</td>
+        <!--stands for table data which puts the data into the cells starting from the left to the right-->
+        <td>ComBank</td>
+      </tr>
+      <tr>
+        <td>2011</td>
+        <td>Hog's Breath Cafe</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <hr />
+  <h3>Skills</h3>
+
+  <table cellspacing="10">
+    <tbody>
+      <tr>
+        <td>Baking</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <!--note that you can type emojis by pressing windows and full stop (.) or semi colon-->
+        <td>Procastinating</td>
+        <td>⭐⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Piano</td>
+        <td>⭐⭐</td>
+        <td>Gaming</td>
+        <td>⭐⭐</td>
+      </tr>
+    </tbody>
+
+  </table>
+  <hr>
+  <a href="MyHobbies.html">My Hobbies</a>
+  <a href="ContactsDetails.html">Contact Me</a>
+
+</body>
+
+</html>
